@@ -1,16 +1,45 @@
-<<<<<<< HEAD
-# React + Vite
+# 🌍 Travel Agency - Dark Themed Home Screen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fully responsive, dark-themed homepage for a travel agency website built with **React** and **Tailwind CSS**. This project showcases elegant layout design, mobile-first responsiveness, and visual storytelling for a travel-focused brand.
 
-Currently, two official plugins are available:
+![Homepage Screenshot](public/Landing.png)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Travel-Agency
->>>>>>> cbfef9d1a727e5ff3b2b217688fb6be6e60b50ca
+- 🌑 **Dark Theme** with elegant gradients and imagery.
+- 🎯 Hero section with catchy tagline and CTA buttons.
+- 🗺️ Popular Destinations with cards and responsive layout.
+- ✅ “Why Choose Us” features with modern icons.
+- 💬 Optional Testimonials section.
+- 🔗 Modern Footer with newsletter signup and map overlay.
+
+---
+
+## 🛠️ Tech Stack
+
+- [React JS](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide React Icons](https://www.npmjs.com/package/lucide-react)
+
+---
+
+## 📂 Folder Structure
+├── public/
+│ ├── assets/ # Static images (e.g., background, destinations)
+│ └── index.html
+├── src/
+│ ├── components/ # Reusable components (Hero, Destinations, Footer, etc.)
+│ │ ├── Hero.jsx
+│ │ ├── Destinations.jsx
+│ │ ├── WhyChooseUs.jsx
+│ │ ├── Testimonials.jsx
+│ │ └── Footer.jsx
+│ ├── App.jsx # Main app container
+│ ├── main.jsx # React DOM root
+│ └── index.css # Tailwind directives and base styles
+├── tailwind.config.js # Tailwind configuration
+├── postcss.config.js
+├── package.json
+└── README.md # You are here 📘
