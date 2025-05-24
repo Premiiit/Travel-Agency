@@ -29,8 +29,6 @@ A modern, fully responsive, dark-themed homepage for a travel agency website bui
 
 ```text
 ├── public/
-│   ├── assets/             # Static images (e.g., background, destinations)
-│   └── index.html
 ├── src/
 │   ├── components/         # Reusable components (Hero, Destinations, Footer, etc.)
 │   │   ├── Hero.jsx
