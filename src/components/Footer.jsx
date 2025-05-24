@@ -1,5 +1,6 @@
 import React from "react";
 import { Instagram, Twitter, Facebook, MapPin, Mail } from "lucide-react";
+import bg from "../assets/world.png"
 
 const footerLinks = [
   {
@@ -20,12 +21,13 @@ const Footer = () => {
   return (
     <footer className="relative bg-gray-900 text-gray-300 pt-16 pb-8 px-4">
       {/* Subtle map overlay for depth */}
-      <div className="absolute inset-0 opacity-10 pointer-events-none">
+      <div className="absolute inset-0 opacity-30 pointer-events-none">
         <img
-          src="/assets/images/map-overlay.png"
+          src={bg}
           alt="Map overlay"
           className="w-full h-full object-cover"
         />
+        <div className="absolute top-0 left-0 w-full h-1/4 bg-gradient-to-b from-gray-900 to-transparent"></div>
       </div>
 
       <div className="relative max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
