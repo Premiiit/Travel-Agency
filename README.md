@@ -26,20 +26,23 @@ A modern, fully responsive, dark-themed homepage for a travel agency website bui
 ---
 
 ## 📂 Folder Structure
+
+```text
 ├── public/
-│ ├── assets/ # Static images (e.g., background, destinations)
-│ └── index.html
+│   ├── assets/             # Static images (e.g., background, destinations)
+│   └── index.html
 ├── src/
-│ ├── components/ # Reusable components (Hero, Destinations, Footer, etc.)
-│ │ ├── Hero.jsx
-│ │ ├── Destinations.jsx
-│ │ ├── WhyChooseUs.jsx
-│ │ ├── Testimonials.jsx
-│ │ └── Footer.jsx
-│ ├── App.jsx # Main app container
-│ ├── main.jsx # React DOM root
-│ └── index.css # Tailwind directives and base styles
-├── tailwind.config.js # Tailwind configuration
+│   ├── components/         # Reusable components (Hero, Destinations, Footer, etc.)
+│   │   ├── Hero.jsx
+│   │   ├── Destinations.jsx
+│   │   ├── WhyChooseUs.jsx
+│   │   ├── Testimonials.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx             # Main app container
+│   ├── main.jsx            # React DOM root
+│   └── index.css           # Tailwind directives and base styles
+├── tailwind.config.js      # Tailwind configuration
 ├── postcss.config.js
 ├── package.json
-└── README.md # You are here 📘
+└── README.md               # You are here 📘
+
